@@ -1,0 +1,14 @@
+:host {
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+:host ::ng-deep input {
+  border: none;
+  outline: none;
+}
+
+i {
+  margin-right: 10px;
+  color: #333;
+}
